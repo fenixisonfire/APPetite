@@ -17,7 +17,6 @@
             self.processData = function(){
             
                 for(var i = 0; i < self.items.length; i++){
-
                     //For calculating totals for table
 
                     var multical = self.items[i].energy_kcal * self.items[i].quantity;          
@@ -33,9 +32,6 @@
                     
                 }; 
             };
-        
-        
-           
         
             self.processData();
         

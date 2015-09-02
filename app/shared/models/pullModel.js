@@ -24,7 +24,7 @@
             //Promise for SC1 - Pull all foodlist 
             var flpromise = $http({
                     method: 'post',
-                    url: "sql/pull.php",
+                    url: "http://appetiteBackEnd.azurewebsites.net/pull.php",
                     data: {
                         table: "foodlist",
                         type: "all",
@@ -39,7 +39,7 @@
             //Promise for SC2 - Pull all usermeallist
             var umlpromise = $http({
                     method: 'post',
-                    url: "sql/pull.php",
+                    url: "http://appetiteBackEnd.azurewebsites.net/pull.php",
                     data: {
                         table: "usermeallist",
                         type: "all",
@@ -54,7 +54,7 @@
             //Promise for SC6 - Pull recent weight from userweightmanifest
             var ruwmpromise = $http({
                     method: 'post',
-                    url: "sql/pull.php",
+                    url: "http://appetiteBackEnd.azurewebsites.net/pull.php",
                     data: {
                         table: "userweightmanifest",
                         type: "recent",
@@ -69,7 +69,7 @@
             //SC7 - Pull all from userfoodmanifest
             var ufmpromise = $http({
                     method: 'post',
-                    url: "sql/pull.php",
+                    url: "http://appetiteBackEnd.azurewebsites.net/pull.php",
                     data: {
                         table: "userfoodmanifest",
                         type: "all",
@@ -84,7 +84,7 @@
             //SC8 - Pull today's user food manifest entries
             var tufmpromise = $http({
                     method: 'post',
-                    url: "sql/pull.php",
+                    url: "http://appetiteBackEnd.azurewebsites.net/pull.php",
                     data: {
                         table: "userfoodmanifest",
                         type: "today",
@@ -99,7 +99,7 @@
             //SC9 - Pull all from userrequirements
             var urmpromise = $http({
                     method: 'post',
-                    url: "sql/pull.php",
+                    url: "http://appetiteBackEnd.azurewebsites.net/pull.php",
                     data: {
                         table: "userrequirementsmanifest",
                         type: "all",
@@ -114,7 +114,7 @@
             //Promise for SC12 = Pull all symptomslist
             var slpromise = $http({
                     method: 'post',
-                    url: "sql/pull.php",
+                    url: "http://appetiteBackEnd.azurewebsites.net/pull.php",
                     data: {
                         table: "symptomlist",
                         type: "all",
@@ -129,7 +129,7 @@
             //Promise for SC16 - Pull all userfoodlist
             var uflpromise = $http({
                     method: 'post',
-                    url: "sql/pull.php",
+                    url: "http://appetiteBackEnd.azurewebsites.net/pull.php",
                     data: {
                         table: "userfoodlist",
                         type: "all",
@@ -144,7 +144,7 @@
             //SC17 - Pull all from usersymptomlist
              var uslpromise = $http({
                     method: 'post',
-                    url: "sql/pull.php",
+                    url: "http://appetiteBackEnd.azurewebsites.net/pull.php",
                     data: {
                         table: "usersymptomlist",
                         type: "all",
@@ -159,7 +159,7 @@
             //Promise for SC18 - Pull earliest weight from userweightmanifest
             var fuwmpromise = $http({
                     method: 'post',
-                    url: "sql/pull.php",
+                    url: "http://appetiteBackEnd.azurewebsites.net/pull.php",
                     data: {
                         table: "userweightmanifest",
                         type: "first",
@@ -174,7 +174,7 @@
             //SC19 - Pull all from usersymptomsmanifest
             var usmpromise = $http({
                     method: 'post',
-                    url: "sql/pull.php",
+                    url: "http://appetiteBackEnd.azurewebsites.net/pull.php",
                     data: {
                         table: "usersymptommanifest",
                         type: "all",
@@ -189,7 +189,7 @@
             //Promise for SC20 - Pull all weights from userweightmanifest
             var uwmpromise = $http({
                     method: 'post',
-                    url: "sql/pull.php",
+                    url: "http://appetiteBackEnd.azurewebsites.net/pull.php",
                     data: {
                         table: "userweightmanifest",
                         type: "all",

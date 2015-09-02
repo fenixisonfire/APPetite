@@ -11,7 +11,7 @@
                 for (var i = 0; i < selected.length; i++){ 
                     var push = $http({
                         method: 'post',
-                        url: "sql/push.php",
+                        url: "http://appetiteBackEnd.azurewebsites.net/push.php",
                         data: {
                             table: "usermeallist",
                             userid: authService.getUser(),
@@ -42,7 +42,7 @@
                 for (var i = 0; i < selected.length; i++){
                     var push = $http({
                         method: 'post',
-                        url: "sql/push.php",
+                        url: "http://appetiteBackEnd.azurewebsites.net/push.php",
                         data: {
                             table: "userfoodmanifest",
                             userid: authService.getUser(),
@@ -69,7 +69,7 @@
             self.push_ufl = function(newfood){
                 var push = $http({
                     method: 'post',
-                    url: "sql/push.php",
+                    url: "http://appetiteBackEnd.azurewebsites.net/push.php",
                     data: {
                         table: "userfoodlist",
                         userid: authService.getUser(),
@@ -92,7 +92,7 @@
             self.push_usl = function(newsymptom){
                 var push = $http({
                     method: 'post',
-                    url: "sql/push.php",
+                    url: "http://appetiteBackEnd.azurewebsites.net/push.php",
                     data: {
                         table: "usersymptomlist",
                         userid: authService.getUser(),
@@ -110,7 +110,7 @@
 
                 var push = $http({
                     method: 'post',
-                    url: "sql/push.php",
+                    url: "http://appetiteBackEnd.azurewebsites.net/push.php",
                     data: {
                         table: "usersymptommanifest",
                         userid: authService.getUser(),
@@ -131,7 +131,7 @@
             self.push_uwm = function(currentweight){
                 var push = $http({
                     method: 'post',
-                    url: "sql/push.php",
+                    url: "http://appetiteBackEnd.azurewebsites.net/push.php",
                     data: {
                         table: "userweightmanifest",
                         userid: authService.getUser(),

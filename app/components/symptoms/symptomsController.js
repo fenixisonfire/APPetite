@@ -27,12 +27,8 @@
             };
         
             var pullallsl = pullModel.pull_all_sl();
-            console.log("PULLALLSL");
-            console.log(pullallsl);
         
             var pullallusl = pullModel.pull_all_usl();  
-            console.log("PULLALLUSL");
-            console.log(pullallusl);
             
         
             self.symptoms = self.mmmerge(pullallsl, pullallusl)
