@@ -152,8 +152,8 @@
                 
                 //for inserting values into graph
                 console.log(self.items[i]);
-               var datetime = new Date(self.items[i].datetime.date);
-                
+                var datetime = new Date(self.items[i].datetime.date);
+                 datetime = new Date(dateTime.getFullYear(), dateTime.getMonth(), dateTime.getDate());
                 //var datetime = i;
                 //self.items[i].datetime
                 
