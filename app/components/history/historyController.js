@@ -152,7 +152,7 @@
                 
                 //for inserting values into graph
                 console.log(self.items[i]);
-               var datetime = new Date();
+               var datetime = new Date(self.items[i].datetime.date);
                 
                 //var datetime = i;
                 //self.items[i].datetime
