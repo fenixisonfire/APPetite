@@ -50,8 +50,8 @@
         
             self.caloriesoptions = {
               axes: {
-                  //x: {key: 'x', type: 'date'},
-                  x: {key: 'x', ticksFormat: '.2f', type: 'linear'},
+                  x: {key: 'x', type: 'date'},
+                  //x: {key: 'x', ticksFormat: '.2f', type: 'linear'},
                   y: {type: 'linear', min: 0, max: 700},
               },
               margin: {
@@ -152,7 +152,7 @@
                 
                 //for inserting values into graph
                 console.log(self.items[i]);
-                var datetime = self.items[i].datetime;
+               var datetime = new Date();
                 
                 //var datetime = i;
                 //self.items[i].datetime
