@@ -50,8 +50,8 @@
         
             self.caloriesoptions = {
               axes: {
-                  //x: {key: 'x', type: 'date'},
-                  x: {key: 'x', ticksFormat: '.2f', type: 'linear'},
+                  x: {key: 'x', type: 'date'},
+                  //x: {key: 'x', ticksFormat: '.2f', type: 'linear'},
                   y: {type: 'linear', min: 0, max: 700},
               },
               margin: {
@@ -153,7 +153,7 @@
                 //for inserting values into graph
                 
                 var datetime = i;
-                //self.items[i].datetime
+                self.items[i].datetime
                 
                 var graphdataobject = {x: datetime, caloriesval: multical, proteinval: multipro, fluidval: multiflu, weightval: multiweigh};
                 self.graphdata.push(graphdataobject);
