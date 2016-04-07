@@ -153,7 +153,7 @@
                 //for inserting values into graph
                 console.log(self.items[i]);
                 var datetime = new Date(self.items[i].datetime.date);
-                datetime = new Date(datetime.getFullYear(), datetime.getMonth(), datetime.getDate());
+                //datetime = new Date(datetime.getFullYear(), datetime.getMonth(), datetime.getDate());
                 //var datetime = i;
                 //self.items[i].datetime
                 
