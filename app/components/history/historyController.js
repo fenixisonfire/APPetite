@@ -151,9 +151,11 @@
                 };
                 
                 //for inserting values into graph
+                console.log(self.items[i]);
+                var datetime = self.items[i].datetime;
                 
-                var datetime = i;
-                self.items[i].datetime
+                //var datetime = i;
+                //self.items[i].datetime
                 
                 var graphdataobject = {x: datetime, caloriesval: multical, proteinval: multipro, fluidval: multiflu, weightval: multiweigh};
                 self.graphdata.push(graphdataobject);
