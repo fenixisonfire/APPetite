@@ -50,7 +50,8 @@
         
             self.caloriesoptions = {
               axes: {
-                  x: {key: 'x', ticksFormat: '.2f', type: 'linear'},
+                  x: {key: 'x', type: 'date'},
+                  //x: {key: 'x', ticksFormat: '.2f', type: 'linear'},
                   y: {type: 'linear', min: 0, max: 700},
               },
               margin: {
