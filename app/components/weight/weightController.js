@@ -7,7 +7,7 @@
             self.id = "Weight";
             
             self.submitvalue = "Submit Weight";
-            self.title = "Entering your weight on a weekly basis is reccomended";
+            self.title = "Entering your weight on a weekly basis is recommended";
         
             self.weight = pullModel.pull_recent_uwm();
         
