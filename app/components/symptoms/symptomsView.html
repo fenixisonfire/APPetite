@@ -25,7 +25,7 @@
                     <ul class="nav nav-tabs nav-stacked scroll">
                         <li role="presentation" ng-repeat="symptom in ctrl.symptoms" ng-class='{"active":ctrl.tab=="{{symptom.symptom}}"}'>
                             <a ng-click="ctrl.selectSymptoms(symptom.symptom)">{{ symptom.symptom }}</a>
-                            <input ng-model = "ctrl.symptom.comment" ng-show="ctrl.isSet(symptom.symptom)" type=text class="form-control comments" placeholder="Optional comments" name="comment">
+                            <input ng-model = "ctrl.symptom.comment" ng-show="ctrl.isSet(symptom.symptom)" type=text class="form-control comments" placeholder="Please add comments" name="comment">
                         </li>    
                     </ul>
                 </div>
