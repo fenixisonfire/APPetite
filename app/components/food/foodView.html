@@ -162,7 +162,7 @@
       				<div class="modal-body" id="modal-info-body">
                         <ul class="nav nav-tabs nav-stacked scroll">
                             <li role="presentation" ng-repeat="item in ctrl.meals">
-                                <div><button class="btn btn-default">{{ item.quantity }}</button><a ng-click="ctrl.itemSelect(item)"> <div>{{ item.edibleproportion }}kg of {{ item.foodname }}</a> from your meal saved <label>{{ item.datetime.date | dateTime | date:'medium'}}</label></div>
+                                <div><button class="btn btn-default">{{ item.quantity }}</button><a ng-click="ctrl.itemSelect(item)"> <div>{{ item.edibleproportion }}kg of {{ item.foodname }}</a> from your meal saved <label>{{ item.datetime.date | dateTime | date:'d MMMM yyyy'}}</label></div>
                             </li>    
                         </ul>
                     </div>
