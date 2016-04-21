@@ -3,7 +3,7 @@
 ##Installation
 
 Either
-1. Go online to the website http http://appetiteBackEnd.azurewebsites.net
+1. Go online to the website http http://appetitenhs.azurewebsites.net
 2. Download the zip file from gitHub, unzip the file and open up the index.html page
 
 #Note
