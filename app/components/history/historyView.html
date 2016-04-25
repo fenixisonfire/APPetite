@@ -87,9 +87,9 @@
                                         <td> {{ item.quantity }}</td>
                                         <td>{{ item.foodname }}</td>
                                         <td>{{ item.datetime.date | dateTime | date:'dd-MM-yyyy' }}</td>
-                                        <td ng-show="ctrl.select=='calories'">{{ item.total_calories }}kcal</td>
-                                        <td ng-show="ctrl.select=='protein'">{{ item.total_protein }}g</td>
-                                        <td ng-show="ctrl.select=='fluid'">{{ item.total_fluid }}g</td>
+                                        <td ng-show="ctrl.select=='calories'">{{ item.total_calories }} kcal</td>
+                                        <td ng-show="ctrl.select=='protein'">{{ item.total_protein }} g</td>
+                                        <td ng-show="ctrl.select=='fluid'">{{ item.total_fluid }} ml</td>
                                 </tr>    
                             </table>
                                 <table class = "table" ng-show="ctrl.select=='weight'">
