@@ -129,9 +129,9 @@
                         </div> -->
                     <h3>Symptoms</h3>
                         <div ng-repeat = "symp in ctrl.usersymptommanifest">
-                            <h4> {{ symp.symptom }}</h4>
-                            <p>  Recorded {{ symp.datetime.date | dateTime | date:'dd-MM-yyyy' }}</p>
-                            <p>  {{ symp.comment }}</p>
+                            <h4>{{ symp.symptom }}</h4>
+                            <p style="margin-left: 10px">Recorded {{ symp.datetime.date | dateTime | date:'dd-MM-yyyy' }}</p>
+                            <p style="margin-left: 20px">{{ symp.comment }}</p>
                         </div>
                 </div>
 
