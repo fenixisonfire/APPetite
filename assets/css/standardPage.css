@@ -21,7 +21,7 @@ body{
 }
 
 .scroll{
-    max-height:500px;
+    max-height:320px;
     overflow-y:scroll;
 }
 
@@ -91,7 +91,7 @@ body{
 	height:350px;
 }
 .history-panel{
-	height:400px;
+	height:700px;
 }
 .login-table,
 .register-table
