@@ -121,17 +121,17 @@
                     <h3>Weight</h3>
                         <p>Registration Weight: {{ ctrl.earliestweight }}kg</p>
                         <p>Most Recent Weight: {{ ctrl.weight }}kg</p>
-                    <h3>Requirements</h3>
+                    <!-- <h3>Requirements</h3> //Un comment this when Requirement section implemented.
                         <div ng-repeat="req in ctrl.userrequirements">
                             <p>Calories Requirements: {{ req.finalcalories }}kcal</p>
                             <p>Protein Requirements: {{ req.finalprotein }}g</p>
                             <p>Fluid Requirements: {{ req.finalfluid }}g</p>
-                        </div>
+                        </div> -->
                     <h3>Symptoms</h3>
                         <div ng-repeat = "symp in ctrl.usersymptommanifest">
-                            <h4>{{ symp.symptom }}</h4>
-                            <p>Recorded {{ symp.datetime.date | dateTime | date:'dd-MM-yyyy' }}</p>
-                            <p>{{ symp.comment }}</p>
+                            <h4> {{ symp.symptom }}</h4>
+                            <p>  Recorded {{ symp.datetime.date | dateTime | date:'dd-MM-yyyy' }}</p>
+                            <p>  {{ symp.comment }}</p>
                         </div>
                 </div>
 
